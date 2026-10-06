@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel - PharmaGo</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="lateral">
+            <div class="logo">Pharma<strong>Go</strong></div>
+            <nav id="menu"></nav>
+            <div class="sesion">
+                <div>
+                    <strong id="nombreUsuario"></strong>
+                    <span id="rolUsuario"></span>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="salir" type="button">Cerrar sesión</button>
+            </div>
+        </aside>
+
+        <main class="contenido">
+            <div class="container" id="contenido"></div>
+        </main>
+    </div>
+
+    <script src="js/services/storageService.js"></script>
+    <script src="js/core/utils.js"></script>
+    <script src="js/core/modelo.js"></script>
+    <script src="js/core/vista.js"></script>
+    <script src="js/core/controlador.js"></script>
+    <script src="js/auth/sesion.js"></script>
+    <script src="js/roles/rolModel.js"></script>
+    <script src="js/roles/rolView.js"></script>
+    <script src="js/roles/rolController.js"></script>
+    <script src="js/eps/epsModel.js"></script>
+    <script src="js/eps/epsView.js"></script>
+    <script src="js/eps/epsController.js"></script>
+    <script src="js/farmacias/farmaciaModel.js"></script>
+    <script src="js/farmacias/farmaciaView.js"></script>
+    <script src="js/farmacias/farmaciaController.js"></script>
+    <script src="js/medicamentos/medicamentoModel.js"></script>
+    <script src="js/medicamentos/medicamentoView.js"></script>
+    <script src="js/medicamentos/medicamentoController.js"></script>
+    <script src="js/inventario/inventarioModel.js"></script>
+    <script src="js/inventario/inventarioView.js"></script>
+    <script src="js/inventario/inventarioController.js"></script>
+    <script src="js/convenios/convenioModel.js"></script>
+    <script src="js/convenios/convenioView.js"></script>
+    <script src="js/convenios/convenioController.js"></script>
+    <script src="js/usuarios/usuarioModel.js"></script>
+    <script src="js/usuarios/usuarioView.js"></script>
+    <script src="js/usuarios/usuarioController.js"></script>
+    <script src="js/reportes/reporteModel.js"></script>
+    <script src="js/reportes/reporteView.js"></script>
+    <script src="js/reportes/reporteController.js"></script>
+    <script src="js/core/dashboard.js"></script>
+</body>
+</html>

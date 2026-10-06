@@ -1,0 +1,8 @@
+{
+  "name": "pharmago",
+  "version": "1.0.0",
+  "description": "Consulta inteligente de medicamentos",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
